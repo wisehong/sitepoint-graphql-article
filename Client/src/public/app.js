@@ -1,4 +1,3 @@
-
 function getActorId(actor) {
   return 'actor' + actor.name.split(' ').pop();
 }
@@ -34,7 +33,7 @@ function buildMovieElement(movie) {
 const API_URL = 'http://localhost:3000/movies';
 const MOVIES_AND_ACTORS_URL = 'http://localhost:3000/moviesAndActors';
 
-$(document).ready( _ => {
+$(document).ready(_ => {
   console.log('document ready');
   debugger
   // fetchDataV1();
